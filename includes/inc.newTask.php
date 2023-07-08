@@ -7,7 +7,7 @@ if (isset($_POST['add'])) {
     $dueDate = $_POST['dueDate'];
 
     if (!empty($newTask) && !empty($description) && !empty($dueDate)) {
-        $formattedDate = date('Y-m-d', strtotime($dueDate)); // Formata a data para o padrão do MySQL (AAAA-MM-DD)
+        $formattedDate = date('Y-m-d', strtotime($dueDate));
         $query = "INSERT INTO todolist (newTask, taskDescription, taskDueDate) VALUES ('$newTask', '$description', '$formattedDate');";
         $query_execution = mysqli_query($connection, $query);
 
