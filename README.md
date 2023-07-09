@@ -8,25 +8,30 @@ Bruno Patrício Costa – 08/07/2023
 <br>
 
 # Olá, me chamo Bruno Patrício Costa! 
-<br> 
+ 
 Esse arquivo é uma espécie de Read.me que decidi fazer para explicar o meu raciocínio utilizado para fazer o desafio da To do List e também como acessar. 
 <br>
 
-- 1)	Stacks utilizadas:
-  Para esse projeto teste foi utilizado o Visual Studio Code como IDE/Editor de código e também PHP, JavaScript, HTML 5, CSS, Jquery, MySQL e Ajax.
-  <hr> 
-- 2)	Como rodar:
+## Stacks utilizadas:
+Para esse projeto teste foi utilizado o Visual Studio Code como IDE/Editor de código e também PHP, JavaScript, HTML 5, CSS, Jquery, MySQL e Ajax.
+ 
+
+## Como rodar:
 Para rodar esse projeto é necessário realizar a instalação do Software XAMPP e com isso iniciar através do painel de controle o APACHE e MySQL. 
 A partir disso, se fez necessário configurar as portas de acesso do Localhost, uma vez que a minha máquina já possuía outras configurações de outros projetos na modalidade freelancer que eu estou realizando. 
 Nesse projeto foram utilizadas as portas 8080 e 4433 para o APACHE e 3306 para o MySQL. 
-<hr>
-- 3)	DataBase Design:
+
+
+## DataBase Design:
 Sabendo disso, criei o banco de dados através do localhost:8080/phpmyadmin, chamando o banco de todolist, preenchendo com colunas chamadas de ID, newTask, taskDescription e taskDueDate, sendo a ID do tipo INT e também como AUTO-INCREMENT. As chaves de newTask e taskDescription possuem o tipo Varchar e text, e por fim, o taskDueDate possui o tipo DATE. 
-<hr> 
-- 4)	Código propriamente dito:
+ 
+## Código propriamente dito:
 Com o banco de dados criado e com design definido, fui para o código. 
+
 Inicialmente optei por construir o front-end através do uso do HTML no arquivo index.php. 
+
 Utilizei dois tipos de font-family (‘Ubuntu’ e ‘Caveat’) oriundos do Google Fonts, através da Tag <link>, sendo a primeira para dar um ar sério a aplicação e a segunda, para idealizar a escrita cursiva em uma folha em branco para dar a sensação de escrever nela. 
+
 Utilizei também os ícones do Google Fonts para estilizar, já que era algo mais simples de se fazer. Caso contrário e fosse permitido, utilizaria bibliotecas mais robustas para tal.
 Aqui, optei por utiliza uma estrutura de HTML com contém a TAG <style> que contém o código puro de CSS, pois agilizaria a realização do código inicial. 
 
