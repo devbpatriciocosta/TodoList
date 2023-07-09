@@ -36,7 +36,7 @@ Utilizei também os ícones do Google Fonts para estilizar, já que era algo mai
 Aqui, optei por utiliza uma estrutura de HTML com contém a TAG <style> que contém o código puro de CSS, pois agilizaria a realização do código inicial. 
 
 <br>
-### CRUD Structure
+## CRUD Structure
 <br>
 
 READ:
