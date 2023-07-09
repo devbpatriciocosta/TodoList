@@ -1,10 +1,6 @@
 # TodoList
 Código de uma todoList utilizando PHP, MySQL, JavaScript, HTML, CSS, JQuery e Ajax;
 
-### Letter / Read.me
-Desafio e teste da Emploi/ XNEO
-Bruno Patrício Costa – 08/07/2023
-
 <br>
 
 # Olá, me chamo Bruno Patrício Costa! 
