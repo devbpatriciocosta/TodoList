@@ -14,14 +14,14 @@ if (isset($_POST['add'])) {
         if ($query_execution) {
             echo "
             <script>
-                alert('Data Successfully inserted!');
+                alert('Yes! Now you have things TO DO!');
                 window.location = '../index.php';
             </script>
             ";
         } else {
             echo "
             <script>
-                alert('Something went wrong!');
+                alert('Oh! I'm sorry but it was impossible to add things on your list');
                 window.location = '../index.php';
             </script>
             ";

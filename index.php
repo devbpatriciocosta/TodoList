@@ -276,9 +276,9 @@
                     <div class="cardBox">
                         <div class="headLineTasks">
                             <div>Ordem</div>
-                            <div class="TaskToDoTable" style="width: 350px; margin-left: 30px;">Taks To Do</div>
-                            <div class="TaskToDoTable" style="width: 350px; margin-left: 5px;">Task Description</div>
-                            <div class="TaskToDoTable" style="width: 150px; margin-left: 5px;">Task Due Date</div>
+                            <div class="TaskToDoTable" style="width: 350px; margin-left: 30px;">Tasks To Do</div>
+                            <div class="TaskToDoTable" style="width: 350px; margin-left: 5px;">Tasks Description</div>
+                            <div class="TaskToDoTable" style="width: 150px; margin-left: 5px;">Tasks Due Date</div>
                             <div class="ActionsTable" style="width: 70px; margin-left: 80px; ">Actions</div>
                         </div>
                         <div class="bodyLineTasks">

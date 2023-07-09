@@ -22,7 +22,7 @@
         if($result) {
             echo "
                 <script>
-                    alert('Data Updated Succesfully!')
+                    alert('Your things to do were updated!')
                     window.location = '../index.php'
                 </script>
             ";
